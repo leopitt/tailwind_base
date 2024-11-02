@@ -1,0 +1,17 @@
+# See https://www.drupal.org/node/3352951
+$schema: https://git.drupalcode.org/project/drupal/-/raw/10.3.x/core/assets/schemas/v1/metadata.schema.json
+name: Hero - Split Screen Shot with Dark
+status: experimental
+group: Hero
+props:
+  # If your component has required properties, you list them here.
+  required:
+    - title
+  properties:
+    # The main title.
+    title:
+      title: Title
+      type: string
+      description: The main title of the hero.
+      examples:
+        - Deploy to the cloud with confidence
