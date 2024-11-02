@@ -1,0 +1,7 @@
+<h1>{{ content.field_title }}</h1>
+
+{% include 'ss_tw_base:hero' with {
+  title: content.field_hero_title,
+  body: content.field_hero_body,
+  links: content.field_hero_link,
+} %}

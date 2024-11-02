@@ -1,0 +1,20 @@
+name: Systemseed Tailwind Base theme
+type: theme
+base theme: stable9
+description: A Base theme for use with Tailwind and Systemseed tools.
+package: Systemseed
+core_version_requirement: ^10 || ^11
+libraries:
+  - ss_tw_base/global
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'

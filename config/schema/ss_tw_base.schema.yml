@@ -1,0 +1,8 @@
+# Schema for the configuration files of the Systemseed Tailwind Base theme theme.
+ss_tw_base.settings:
+  type: theme_settings
+  label: 'Systemseed Tailwind Base theme settings'
+  mapping:
+    example:
+      type: string
+      label: Example
