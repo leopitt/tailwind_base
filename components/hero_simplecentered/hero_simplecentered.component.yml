@@ -1,0 +1,94 @@
+# See https://www.drupal.org/node/3352951
+$schema: https://git.drupalcode.org/project/drupal/-/raw/10.3.x/core/assets/schemas/v1/metadata.schema.json
+name: Hero - Simple Centered
+status: experimental
+group: Hero
+props:
+  # If your component has required properties, you list them here.
+  required:
+    - title
+  properties:
+    # The main title.
+    title:
+      title: Title
+      type: string
+      description: The main title of the hero.
+      examples:
+        - Data to enrich your online business
+    # Preface text.
+    preface:
+      title: Preface
+      type: string
+      description: Preface text.
+      examples:
+        - Announcing our next round of funding.
+    # Preface cta.
+    preface_cta_text:
+      title: Preface CTA Text
+      type: string
+      description: The preface call to action text.
+      examples:
+        - Read more
+        - Click me!
+    preface_cta_href:
+      title: Preface CTA href
+      type: string
+      description: The preface call to action href.
+      examples:
+        - 'https://www.example.org'
+    preface_cta_target:
+      title: Preface CTA target
+      type: string
+      description: The preface call to action target attribute.
+      enum:
+        - ''
+        - _blank
+    # The body text.
+    body:
+      title: Body
+      type: string
+      description: The main body text of the hero.
+      examples:
+        - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed lectus euismod, consectetur sapien in, viverra sem.
+    # The primary call to action.
+    cta_primary_text:
+      title: Primary CTA Text
+      type: string
+      description: The primary call to action text.
+      examples:
+        - Get started
+        - Click me!
+    cta_primary_href:
+      title: Primary CTA href
+      type: string
+      description: The primary call to action href.
+      examples:
+        - 'https://www.example.org'
+    cta_primary_target:
+      title: Primary CTA target
+      type: string
+      description: The primary call to action target attribute.
+      enum:
+        - ''
+        - _blank
+    # The secondary call to action.
+    cta_secondary_text:
+      title: Secondary CTA Text
+      type: string
+      description: The secondary call to action text.
+      examples:
+        - Get started
+        - Click me!
+    cta_secondary_href:
+      title: Secondary CTA href
+      type: string
+      description: The secondary call to action href.
+      examples:
+        - 'https://www.example.org'
+    cta_secondary_target:
+      title: Secondary CTA target
+      type: string
+      description: The secondary call to action target attribute.
+      enum:
+        - ''
+        - _blank

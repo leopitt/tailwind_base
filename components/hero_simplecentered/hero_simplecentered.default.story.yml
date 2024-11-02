@@ -1,0 +1,14 @@
+name: Preview
+props:
+  title: Data to enrich your online business
+  preface: Announcing our next round of funding.
+  preface_cta_text: Read more
+  preface_cta_href: 'https://www.example.org'
+  preface_cta_target: ''
+  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed lectus euismod, consectetur sapien in, viverra sem.
+  cta_primary_text: Get started
+  cta_primary_href: 'https://www.example.org'
+  cta_primary_target: ''
+  cta_secondary_text: Learn more
+  cta_secondary_href: 'https://www.example.org'
+  cta_secondary_target: ''

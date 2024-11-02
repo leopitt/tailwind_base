@@ -1,28 +1,28 @@
-ss_tw_base.extra_small:
+tailwind_base.extra_small:
   label: mobile
   mediaQuery: ''
   weight: 0
   multipliers:
     - 1x
-ss_tw_base.small:
+tailwind_base.small:
   label: mobile
   mediaQuery: 'all and (min-width: 576px) and (max-width: 767px)'
   weight: 1
   multipliers:
     - 1x
-ss_tw_base.medium:
+tailwind_base.medium:
   label: narrow
   mediaQuery: 'all and (min-width: 768px) and (max-width: 991px)'
   weight: 2
   multipliers:
     - 1x
-ss_tw_base.large:
+tailwind_base.large:
   label: wide
   mediaQuery: 'all and (min-width: 992px) and (max-width: 1199px)'
   weight: 3
   multipliers:
     - 1x
-ss_tw_base.extra_large:
+tailwind_base.extra_large:
   label: wide
   mediaQuery: 'all and (min-width: 1200px)'
   weight: 4

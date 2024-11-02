@@ -1,11 +1,11 @@
-name: Systemseed Tailwind Base theme
+name: Tailwind Base
 type: theme
 base theme: stable9
-description: A Base theme for use with Tailwind and Systemseed tools.
+description: A Base theme for use with Tailwind.
 package: Systemseed
 core_version_requirement: ^10 || ^11
 libraries:
-  - ss_tw_base/global
+  - tailwind_base/global
 regions:
   header: 'Header'
   primary_menu: 'Primary menu'
