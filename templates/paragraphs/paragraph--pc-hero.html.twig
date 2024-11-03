@@ -1,0 +1,15 @@
+{% include 'tailwind_base:hero_simplecentered' with {
+  title: content.field_pc_hero_title,
+  preface: content.field_pc_hero_preface,
+  preface_cta_text: content.field_pc_hero_preface_cta[0]['#title'],
+  preface_cta_href: content.field_pc_hero_preface_cta[0]['#url'],
+  preface_cta_target: content.field_pc_hero_preface_cta[0]['#target'] ?: '',
+  body: content.field_pc_hero_body,
+  cta_primary_text: content.field_pc_hero_primary_cta[0]['#title'],
+  cta_primary_href: content.field_pc_hero_primary_cta[0]['#url'],
+  cta_primary_target: content.field_pc_hero_primary_cta[0]['#target'] ?: '',
+  cta_secondary_text: content.field_pc_hero_secondary_cta[0]['#title'],
+  cta_secondary_href: content.field_pc_hero_secondary_cta[0]['#url'],
+  cta_secondary_target: content.field_pc_hero_secondary_cta[0]['#target'] ?: '',
+  attributes: {},
+} only %}
