@@ -1,0 +1,14 @@
+{
+  "name": "leopitt/tailwind_base",
+  "description": "A base theme for Tailwind.",
+  "type": "drupal-theme",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/leopitt/tailwind_base",
+  "require": {
+    "drupal/ui_patterns": "^2.0@beta"
+  },
+  "authors": [{
+    "name": "Leo Pitt",
+    "email": "hello@leopitt.co.uk"
+  }]
+}
